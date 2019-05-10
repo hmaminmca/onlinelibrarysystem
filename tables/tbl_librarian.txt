@@ -1,0 +1,14 @@
+CREATE TABLE tbl_librarian (
+    librarian_id INTEGER      PRIMARY KEY ASC AUTOINCREMENT,
+    name         VARCHAR (15) NOT NULL,
+    l_uname      VARCHAR (10) NOT NULL,
+    l_pass       VARCHAR (10) NOT NULL,
+    l_email      VARCHAR (15),
+    address      VARCHAR,
+    city         VARCHAR (15),
+    contact_no   INTEGER      NOT NULL
+);
+
+
+
+

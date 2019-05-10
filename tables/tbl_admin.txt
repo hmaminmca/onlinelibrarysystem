@@ -1,0 +1,6 @@
+CREATE TABLE tbl_admin (
+    admin_id       INTEGER      PRIMARY KEY ASC AUTOINCREMENT,
+    admin_username VARCHAR (10) NOT NULL,
+    admin_pass     VARCHAR (10) NOT NULL
+);
+

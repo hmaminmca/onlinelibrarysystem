@@ -1,0 +1,6 @@
+CREATE TABLE tbl_return_book_details (
+    r_book_id INTEGER REFERENCES tbl_book_details (book_id) ON DELETE CASCADE
+                                                            ON UPDATE CASCADE,
+    stu_id    INTEGER
+);
+

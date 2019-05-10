@@ -1,0 +1,12 @@
+CREATE TABLE tbl_book_details (
+    book_id   INTEGER      PRIMARY KEY ASC AUTOINCREMENT
+                           NOT NULL,
+    callno    VARCHAR (10) NOT NULL,
+    book_name VARCHAR (20) NOT NULL,
+    author    VARCHAR (20) NOT NULL,
+    publisher VARCHAR (20) NOT NULL,
+    quantity  INTEGER      NOT NULL,
+    avl_qty   INTEGER
+);
+
+

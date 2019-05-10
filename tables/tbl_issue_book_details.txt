@@ -1,0 +1,10 @@
+CREATE TABLE tbl_issue_book_details (
+    is_id           INTEGER      PRIMARY KEY ASC AUTOINCREMENT,
+    book_id         INTEGER      REFERENCES tbl_book_details (book_id) ON DELETE CASCADE
+                                                                       ON UPDATE CASCADE,
+    student_id      INTEGER,
+    student_name    VARCHAR (15),
+    student_contact INTEGER (10) 
+);
+
+
