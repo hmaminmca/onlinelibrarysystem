@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+table.login
+{
+  border-radius: 5px;
+  background-color: #804000;
+  padding: 20px;
+  margin-left : 500px;
+  margin-top : 50px;
+  color : white;
+}

@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+table.frm
+{
+border-radius: 5px;
+  background-color: #804000;
+  padding: 20px;
+  margin-left : 450px;
+  color : white;
+  width : 400px;
+}

@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+a
+{
+  width: 20%;
+  background-color: #804000;
+  color: white;
+  padding: 14px 20px;
+  //margin: 8px 0;
+  margin-top : 700px;
+  margin-left : 850px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
